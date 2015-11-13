@@ -25,33 +25,33 @@ $inuit-padding--tiny:                     quarter($inuit-padding) !default;
 $inuit-padding--large:                     double($inuit-padding) !default;
 $inuit-padding--huge:                   quadruple($inuit-padding) !default;
 
-$inuit-enable-margins:                  false !default;
-$inuit-enable-margins--tiny:            false !default;
-$inuit-enable-margins--small:           false !default;
-$inuit-enable-margins--large:           false !default;
-$inuit-enable-margins--huge:            false !default;
+$u-m:                  false !default;
+$u-m--tiny:            false !default;
+$u-m--small:           false !default;
+$u-m--large:           false !default;
+$u-m--huge:            false !default;
 
-$inuit-enable-margins--negative:        false !default;
-$inuit-enable-margins--negative-tiny:   false !default;
-$inuit-enable-margins--negative-small:  false !default;
-$inuit-enable-margins--negative-large:  false !default;
-$inuit-enable-margins--negative-huge:   false !default;
+$u-m--negative:        false !default;
+$u-m--negative-tiny:   false !default;
+$u-m--negative-small:  false !default;
+$u-m--negative-large:  false !default;
+$u-m--negative-huge:   false !default;
 
-$inuit-enable-margins--none:            false !default;
+$u-m--none:            false !default;
 
-$inuit-enable-paddings:                 false !default;
-$inuit-enable-paddings--tiny:           false !default;
-$inuit-enable-paddings--small:          false !default;
-$inuit-enable-paddings--large:          false !default;
-$inuit-enable-paddings--huge:           false !default;
+$u-p:                 false !default;
+$u-p--tiny:           false !default;
+$u-p--small:          false !default;
+$u-p--large:          false !default;
+$u-p--huge:           false !default;
 
-$inuit-enable-paddings--none:           false !default;
-
-
+$u-p--none:           false !default;
 
 
 
-@if ($inuit-enable-margins == true) {
+
+
+@if ($u-m == true) {
 
     /**
      * Margin helper classes.
@@ -70,7 +70,7 @@ $inuit-enable-paddings--none:           false !default;
 }
 
 
-@if ($inuit-enable-margins--tiny == true) {
+@if ($u-m--tiny == true) {
 
     /**
      * Add tiny margins.
@@ -87,7 +87,7 @@ $inuit-enable-paddings--none:           false !default;
 }
 
 
-@if ($inuit-enable-margins--small == true) {
+@if ($u-m--small == true) {
 
     /**
      * Add small margins.
@@ -104,7 +104,7 @@ $inuit-enable-paddings--none:           false !default;
 }
 
 
-@if ($inuit-enable-margins--large == true) {
+@if ($u-m--large == true) {
 
     /**
      * Add large margins.
@@ -121,7 +121,7 @@ $inuit-enable-paddings--none:           false !default;
 }
 
 
-@if ($inuit-enable-margins--huge == true) {
+@if ($u-m--huge == true) {
 
     /**
      * Add huge margins.
@@ -138,7 +138,7 @@ $inuit-enable-paddings--none:           false !default;
 }
 
 
-@if ($inuit-enable-margins--none == true) {
+@if ($u-m--none == true) {
 
     /**
      * Remove margins.
@@ -155,7 +155,7 @@ $inuit-enable-paddings--none:           false !default;
 }
 
 
-@if ($inuit-enable-margins--negative == true) {
+@if ($u-m--negative == true) {
 
     /**
      * Negative margins.
@@ -172,7 +172,7 @@ $inuit-enable-paddings--none:           false !default;
 }
 
 
-@if ($inuit-enable-margins--negative-tiny == true) {
+@if ($u-m--negative-tiny == true) {
 
     /**
      * Tiny negative margins.
@@ -189,7 +189,7 @@ $inuit-enable-paddings--none:           false !default;
 }
 
 
-@if ($inuit-enable-margins--negative-small == true) {
+@if ($u-m--negative-small == true) {
 
     /**
      * Small negative margins.
@@ -206,7 +206,7 @@ $inuit-enable-paddings--none:           false !default;
 }
 
 
-@if ($inuit-enable-margins--negative-large == true) {
+@if ($u-m--negative-large == true) {
 
     /**
      * Large negative margins.
@@ -223,7 +223,7 @@ $inuit-enable-paddings--none:           false !default;
 }
 
 
-@if ($inuit-enable-margins--negative-huge == true) {
+@if ($u-m--negative-huge == true) {
 
     /**
      * Huge negative margins.
@@ -243,7 +243,7 @@ $inuit-enable-paddings--none:           false !default;
 
 
 
-@if ($inuit-enable-paddings == true) {
+@if ($u-p == true) {
 
     /**
      * Padding helper classes.
@@ -262,7 +262,7 @@ $inuit-enable-paddings--none:           false !default;
 }
 
 
-@if ($inuit-enable-paddings--tiny == true) {
+@if ($u-p--tiny == true) {
 
     /**
      * Add tiny paddings.
@@ -279,7 +279,7 @@ $inuit-enable-paddings--none:           false !default;
 }
 
 
-@if ($inuit-enable-paddings--small == true) {
+@if ($u-p--small == true) {
 
     /**
      * Add small paddings.
@@ -296,7 +296,7 @@ $inuit-enable-paddings--none:           false !default;
 }
 
 
-@if ($inuit-enable-paddings--large == true) {
+@if ($u-p--large == true) {
 
     /**
      * Add large paddings.
@@ -313,7 +313,7 @@ $inuit-enable-paddings--none:           false !default;
 }
 
 
-@if ($inuit-enable-paddings--huge == true) {
+@if ($u-p--huge == true) {
 
     /**
      * Add huge paddings.
@@ -330,7 +330,7 @@ $inuit-enable-paddings--none:           false !default;
 }
 
 
-@if ($inuit-enable-paddings--none == true) {
+@if ($u-p--none == true) {
 
     /**
      * Remove paddings.
