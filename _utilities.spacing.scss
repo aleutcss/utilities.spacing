@@ -15,13 +15,13 @@
 // Predefine the variables below in order to alter and enable specific features.
 $inuit-spacing-namespace:               $inuit-namespace !default;
 
-$inuit-margin:                          $inuit-base-spacing-unit !default;
+$inuit-margin:                          $spacing !default;
 $inuit-margin--small:                       halve($inuit-margin) !default;
 $inuit-margin--tiny:                      quarter($inuit-margin) !default;
 $inuit-margin--large:                      double($inuit-margin) !default;
 $inuit-margin--huge:                    quadruple($inuit-margin) !default;
 
-$inuit-padding:                         $inuit-base-spacing-unit !default;
+$inuit-padding:                         $spacing !default;
 $inuit-padding--small:                      halve($inuit-padding) !default;
 $inuit-padding--tiny:                     quarter($inuit-padding) !default;
 $inuit-padding--large:                     double($inuit-padding) !default;
