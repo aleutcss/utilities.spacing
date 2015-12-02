@@ -1,5 +1,5 @@
 {
-  "name": "aleut-spacing",
+  "name": "@aleut/aleut-spacing",
   "version": "0.8.0",
   "description": "Spacing helper classes in the aleutcss framework (based on Harry Roberts inuitcss framework)",
   "main": "_trumps.spacing.scss",
