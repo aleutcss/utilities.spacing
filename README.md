@@ -3,13 +3,11 @@
 The aleutcss `spacing` module is a small collection of helper classes for
 spacings like margin and padding.
 
-Install using Bower:
 
-    $ bower install --save inuit-spacing
 
 Install using npm:
 
-    $ npm install --save inuit-spacing
+    $ npm install --save-dev aleut-spacing
 
 
 The conventions used in the classes in the spacing module are as follows:
