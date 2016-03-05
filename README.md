@@ -40,7 +40,7 @@ Knowing these conventions means you can compose a huge array of spacing helpers.
 
 ## Enable options
 To enable the optional classes set the variables to `true` before you import
-the `_objects.spacing.scss`-file.
+the `_utilities.spacing.scss`-file.
 
 ```scss
 $u-m:                  false !default;
