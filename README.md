@@ -11,7 +11,7 @@ spacings like margin and padding.
 
 ## Usage
 The conventions used in the classes in the spacing module are as follows:
-    `.u-(m|p)(t|r|b|l|h|v)(-negative)(-tiny|-small|-large|-huge|-none)(@breakpoint) {}`
+    `.u-(m|p)(t|r|b|l|h|v)(-negative)(-tiny|-small|-large|-huge|-none) {}`
 
 E.g.:
 
