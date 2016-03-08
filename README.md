@@ -43,25 +43,25 @@ To enable the optional classes set the variables to `true` before you import
 the `_utilities.spacing.scss`-file.
 
 ```scss
-$u-m:                  false !default;
-$u-m--tiny:            false !default;
-$u-m--small:           false !default;
-$u-m--large:           false !default;
-$u-m--huge:            false !default;
+$u-m:                 false !default;
+$u-m-tiny:            false !default;
+$u-m-small:           false !default;
+$u-m-large:           false !default;
+$u-m-huge:            false !default;
 
-$u-m--negative:        false !default;
-$u-m--negative-tiny:   false !default;
-$u-m--negative-small:  false !default;
-$u-m--negative-large:  false !default;
-$u-m--negative-huge:   false !default;
+$u-m-negative:        false !default;
+$u-m-negative-tiny:   false !default;
+$u-m-negative-small:  false !default;
+$u-m-negative-large:  false !default;
+$u-m-negative-huge:   false !default;
 
-$u-m--none:            false !default;
+$u-m-none:            false !default;
 
 $u-p:                 false !default;
-$u-p--tiny:           false !default;
-$u-p--small:          false !default;
-$u-p--large:          false !default;
-$u-p--huge:           false !default;
+$u-p-tiny:            false !default;
+$u-p-small:           false !default;
+$u-p-large:           false !default;
+$u-p-huge:            false !default;
 
-$u-p--none:           false !default;
+$u-p-none:            false !default;
 ```
