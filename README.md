@@ -6,7 +6,7 @@ spacings like margin and padding.
 ## Install using npm:
 
 ```ssh
-    $ npm install --save-dev aleut-spacing
+    $ npm install --save-dev @aleut/utilities.spacing
 ```
 
 ## Usage
